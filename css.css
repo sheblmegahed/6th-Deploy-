@@ -1,0 +1,161 @@
+body{
+    background-color:#51509b;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:50px;
+}
+/* small screens */
+@media (min-width:768px){
+    .container{
+        width:750px;
+    }
+}
+/* medium screens */
+@media (min-width:992px){
+    .container{
+        width:970px;
+    }
+}
+/* large screens */
+@media (min-width:1200px){
+    .container{
+        width:1170;
+    }
+}
+h1{
+    color:white;
+}
+
+div:nth-child(3){
+    /* background-color:white; */
+    display:flex;
+    margin-top:50px;
+}
+div:nth-child(3) div p{
+    padding-bottom:13px;
+}
+div:nth-child(3) div:first-of-type{
+    border-radius:6px;
+    box-shadow:2px 2px 2px 0px #0000003d;
+}
+div:nth-child(3) div:first-of-type p:not(:last-of-type , p:nth-child(7)){
+    border-bottom:1px solid #e1dcdc;
+}
+div:nth-child(3) div:first-of-type p:nth-child(7){
+    color: #454d5e;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom:2px;
+}
+
+div:nth-child(3) div:first-of-type p:nth-child(7):before{
+    content: '\24';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 15px;
+    top: 8px;
+    left: -10px;
+    position: absolute;
+}
+div:nth-child(3) div:first-of-type p:nth-child(7) span{
+    font-size: 15px;
+    margin-left: -10px;
+}
+div:nth-child(3) div:first-of-type button{
+    background-color: #daa444;
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    padding: 11px;
+    margin-left: 286px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 37px;
+    font-weight: bold;
+}
+div:nth-child(3) div:last-of-type{
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:2px 2px 2px 0px #0000003d;
+}
+div i{
+    color:#daa444;
+}
+div:nth-child(3) div:first-of-type{
+    height: 500px;
+    padding: 27px;
+    background-color:white;
+}
+div:nth-child(3) div:last-of-type p:not(:last-of-type , p:nth-child(4)){
+    border-bottom:1px solid #e1dcdc;
+}
+div:nth-child(3) div:last-of-type p:nth-child(5){
+    color: #454d5e;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom:2px;
+}
+div:nth-child(3) div:last-of-type p:nth-child(5):before{
+    content: '\24';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 15px;
+    top: 8px;
+    left: -10px;
+    position: absolute;
+}
+div:nth-child(3) div:last-of-type button{
+    background-color: #daa444;
+    color: white;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    padding: 11px;
+    margin-left: 286px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 37px;
+    font-weight: bold;
+}
+div:nth-child(3) div:last-of-type{
+    height: 314px;
+    padding: 27px;
+    margin: auto 0;
+    background-color: white;
+    width: 400px;
+}
+div:nth-child(3) div h2{
+    position:relative;
+    z-index:1;
+    margin-bottom:30px;
+}
+div:nth-child(3) div:first-of-type h2::after{
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 35px;
+    background-color: #fbe5ba;
+    width: 206px;
+    height: 9px;
+    z-index:-1;
+}
+div:nth-child(3) div:last-of-type h2::after{
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 32px;
+    background-color: #fbe5ba;
+    width: 220px;
+    height: 9px;
+    z-index: -1;
+}
